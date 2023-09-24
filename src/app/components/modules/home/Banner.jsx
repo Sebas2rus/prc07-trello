@@ -10,10 +10,10 @@ export default function Banner() {
         Trello brings all your tasks, teammates, and tools togeter
       </h2>
       <p className=" text-slate-50 text-2xl text-center mb-10">
-        Keep everything in the same place-even if your team isn&apost
+        Keep everything in the same place-even if your team isn&apos;t
       </p>
       <button className=" bg-blue-500  text-white w-full py-3 rounded-md">
-        Sing up - it's free!
+        Sing up - it&apos;s free!
       </button>
       <a
         className="text-slate-200 flex gap-3 mt-5 place-content-center place-items-center text-lg underline"
