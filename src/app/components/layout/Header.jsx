@@ -8,10 +8,10 @@ import CloseIcon from "../icons/Close";
 import ArrowDown from "../icons/ArrowDown";
 
 export default function Header() {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <section className="h-16 text-lg ">
+    <section className="h-16 text-lg sticky top-4 bg-white ">
       {/* desktop version */}
       <div className="hidden lg:flex h-16 ">
         <ul className="h-16 w-full  flex gap-6 place-items-center mx-4 ">

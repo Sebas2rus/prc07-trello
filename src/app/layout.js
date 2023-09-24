@@ -12,7 +12,7 @@ import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning={true}>
       <body>
         <Header />
         {children}
