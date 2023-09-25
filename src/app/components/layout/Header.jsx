@@ -61,7 +61,7 @@ export default function Header() {
         </ul>
         {openMenu && (
           <div className="relative lg:hidden">
-            <ul className="absolute w-full p-4">
+            <ul className="absolute w-full p-4  bg-white">
               <li className="flex cursor-pointer  border-t place-content-between py-4 place-items-center">
                 <p>Funciones</p> <ArrowLeft />
               </li>
