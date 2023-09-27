@@ -5,12 +5,13 @@ import PlayButton from "../../icons/PlayButton";
 
 export default function Banner() {
   return (
-    <div
-      className={`${styles.backgoundGradient} lg:flex lg:place-items-center lg:m-auto   `}
-    >
-      <div className="pt-16 px-4 lg:px-12 lg:flex  lg:place-items-center lg:max-w-screen-xl lg:mx-auto">
+    <div>
+      <div
+        className={`${styles.backgoundGradient} relative z-0 lg:flex lg:place-items-center lg:m-auto `}
+      ></div>
+      <div className="z-10 relative pt-6 md:pt-16 px-4 lg:px-12 lg:flex  lg:place-items-center lg:max-w-screen-xl lg:mx-auto">
         <div className="sm:max-w-screen-sm mx-auto ">
-          <h2 className="text-4xl font-semibold text-slate-50 text-center mb-8 ">
+          <h2 className="text-3xl md:text-4xl font-semibold text-slate-50 text-center mb-4 md:mb-8 ">
             Trello brings all your tasks, teammates, and tools togeter
           </h2>
           <p className=" text-slate-50 text-2xl text-center mb-10">
@@ -30,7 +31,7 @@ export default function Banner() {
             </button>
           </form>
           <a
-            className="text-slate-200 flex gap-3 mt-8 place-content-center place-items-center text-lg underline"
+            className="text-slate-200 flex gap-3 mt-2 md:mt-8 place-content-center place-items-center text-lg underline"
             href=""
           >
             Watch video
@@ -38,7 +39,7 @@ export default function Banner() {
           </a>
         </div>
         <Image
-          className=" mx-auto mt-8 md:w-9/12   "
+          className=" mx-auto mt-2 md:mt-8 md:w-9/12   "
           src="/Assets/banner/bannerImage.png"
           width={2000}
           height={2000}

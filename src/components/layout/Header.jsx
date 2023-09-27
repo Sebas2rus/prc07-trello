@@ -11,9 +11,9 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <section className="h-16 text-lg sticky top-4 bg-white ">
+    <section className="h-16 text-lg sticky top-0   bg-white ">
       {/* desktop version */}
-      <div className="hidden lg:flex h-16 ">
+      <div className="hidden lg:flex h-16">
         <ul className="h-16 w-full  flex gap-6 place-items-center mx-4 ">
           <li className="cursor-pointer">
             <Logo />
@@ -44,7 +44,7 @@ export default function Header() {
       </div>
 
       {/* Mobile version*/}
-      <div className="w-full h-16 mt-4">
+      <div className="w-full h-16 pt-4">
         <ul className="px-4 lg:hidden flex place-items-center place-content-between w-full">
           <li
             className="cursor-pointer list-none"

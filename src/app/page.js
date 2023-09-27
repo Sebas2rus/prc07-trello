@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Banner from "./components/modules/home/Banner";
+import Home from "@/modules/home/Home";
 
-export default function Home() {
+export default function Index() {
   return (
     <main>
-      <Banner />
+      <Home />
     </main>
   );
 }
